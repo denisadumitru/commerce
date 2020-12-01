@@ -43,7 +43,7 @@ const Button: React.FC<ButtonProps> = forwardRef((props, buttonRef) => {
       // @ts-ignore onClick === onPress for our purposes
       onPress: onClick,
       isDisabled: disabled,
-      elementType: Component,
+      elementType: Component as any,
     },
     ref
   )

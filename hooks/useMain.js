@@ -1,7 +1,7 @@
 import { useQuery } from "react-query";
 import axios from "axios";
 
-const url = 'http://193.226.118.19/'
+const url = 'http://bestmall.ro/'
 
 const getMain = async () => {
   const { data } = await axios.get(
